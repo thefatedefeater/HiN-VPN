@@ -20,8 +20,8 @@ jobs:
       - name: Execute PHP script
         run: |
           php base.php
-          git config --global user.email "yebekhe@gmail.com"
-          git config --global user.name "yebekhe"
+          git config --global user.email "thefatedefeater95@gmail.com"
+          git config --global user.name "thefatedefeater"
           git config credential.helper store
           git add -A
           git commit -m "🚀 Last Run - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
